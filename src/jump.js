@@ -119,7 +119,7 @@ window.onload = function() {
         heroJumpPower= -powerBar.width*3-100;                           // rumus kekuatan loncatan hero -> lebarPowerBar * 3 - 100
         powerBar.destroy();                                             // hilangkan powerbar
         game.tweens.removeAll();                                        // hilangkan semua tween
-        hero.body.velocity.y = heroJumpPower*2;                         // rumus jarak horizontal loncatan hero -> heroJumpPower*2
+        hero.body.velocity.y = heroJumpPower*2;							// rumus jarak horizontal loncatan hero -> heroJumpPower*2
         heroJumping = true;                                             // set heroJumping state to true
         powerTween.stop();                                              // hentikan penambahan powerbar
         game.input.onUp.remove(jump, this);                             // remove event listener in this context
