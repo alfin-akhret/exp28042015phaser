@@ -14,8 +14,11 @@ window.onload = function() {
      var minPoleGap = 100;
      var maxPoleGap = 300; 
      var heroJumping;
-     var heroFallingDown;     
-     var play = function(game){}     
+     var heroFallingDown;
+     
+     var play = function(game){} 
+     
+     
      play.prototype = {
 		preload:function(){
 			game.load.image("hero", "assets/ninja.png"); 
