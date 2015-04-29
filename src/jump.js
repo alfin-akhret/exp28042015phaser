@@ -5,11 +5,11 @@ window.onload = function() {
 	var heroJumpPower;    
 	var score=0;
 	var scoreText;
-     var topScore;
-     var powerBar;
-     var powerTween;
-     var Pole;
-     var placedPoles;
+    var topScore;
+    var powerBar;
+    var powerTween;
+    var Pole;
+    var placedPoles;
 	var poleGroup; 
      var minPoleGap = 100;
      var maxPoleGap = 300; 
